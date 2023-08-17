@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopMovies - Veja os filmes mais populares</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">Filmes Populares</h1>
+        <input class="cabecalho__buscador" type="text" placeholder="Pesquisar...">
+
+        <div class="filtro__favoritos">
+            <input type="checkbox" id="favoritos">
+            <label class="texto__checkbox" for="favoritos">Mostrar meus filmes favoritos apenas</label>
+        </div>
+    </header>
+    <li id="lista__filmes"></li>
+
+    <script src="./js/index.js" type="module"></script>
+    <script src="./js/importaFilmes.js" type="module"></script>
+    <script src="./js/chaveApi.js" type="module"></script>
+    <script src="./js/buscaFilmes.js" type="module"></script>
+    <script src="./js/criarCard.js" type="module"></script>
+</body>
+</html>

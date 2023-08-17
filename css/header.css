@@ -1,0 +1,44 @@
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho__titulo {
+    padding: 1.5em 0 1em 0;
+    font-size: 2.25em;
+    font-weight: 600;
+}
+
+.cabecalho__buscador {
+    padding: 1.5em;
+    width: 40%;
+    background-color: #454558;
+    color: var(--branco);
+    font-size: 1.125em;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.cabecalho__buscador::placeholder {
+    background: url("../images/icons/search-icon.svg") no-repeat;
+    color: var(--cinza-escuro);
+    font-family: var(--fonte);
+    font-size: 1.125em;
+    background-position: 100%;
+}
+
+.filtro__favoritos {
+    text-align: center;
+    margin: 1.5em;
+}
+
+.texto__checkbox {
+    margin-top: 0.5em;
+    font-size: 1.125em;
+    font-weight: 600;
+}
+
+.favoritar {
+    display: flex;
+}
